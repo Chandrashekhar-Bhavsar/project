@@ -74,10 +74,10 @@ def analysis():
     # Main page
     return render_template('about.html')
 
-#@app.route('/heart')
-#def heart():
+@app.route('/heart')
+def heart():
     # Main page
-#    return render_template('heart.html')
+    return render_template('heart.html')
 
 @app.route('/index', methods=['GET'])
 def index():
